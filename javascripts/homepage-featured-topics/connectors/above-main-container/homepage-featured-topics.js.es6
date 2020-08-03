@@ -48,7 +48,7 @@ export default {
               // Get posts from tag
               let customFeaturedTopics = [];
               result.topic_list.topics
-                .slice(0, 3)
+                .slice(0, 6)
                 .forEach(topic =>
                   customFeaturedTopics.push(Topic.create(topic))
                 );
